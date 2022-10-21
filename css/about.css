@@ -16,6 +16,11 @@ body {
   padding: 0 !important;
 }
 
+.alinksLogo {
+  text-decoration: none;
+  color: #ec5242;
+}
+
 /* ************************************************************** */
 /* Mobile */
 
@@ -286,6 +291,7 @@ header {
   
   .alinks {
     text-decoration: none;
+    color: #d3d3d3;
   }
 
   .myLogo:hover,
