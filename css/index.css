@@ -16,6 +16,11 @@ body {
   padding: 0 !important;
 }
 
+.alinksLogo {
+  text-decoration: none;
+  color: #ec5242;
+}
+
 /* ************************************************************** */
 /* Mobile */
 
@@ -70,11 +75,7 @@ nav {
 }
 
 .myLogo {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #ec5242;
+  height: 50px;
 }
 
 .navLinks {
@@ -128,6 +129,7 @@ header {
 .main {
   color: #fff;
   background-color: #000;
+  background-image: url(../img/pattern_bg.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,7 +137,13 @@ header {
   padding: 24px 10px;
 }
 
-.main > div {
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mainDiv > div {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -306,6 +314,11 @@ span {
   
   .alinks {
     text-decoration: none;
+    color: #d3d3d3;
+  }
+  
+  .myLogo {
+    height: 50px;
   }
 
   .myLogo:hover,
@@ -321,5 +334,50 @@ span {
   .speakHide {
     display: block !important;
   }
+  
+  /* ************** */
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 600px 100px 100px;
+  }
+  
+  .headerParagraph {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .headerLocation {
+    font-size: 24px;
+  }
+  
+  /* ************** */
+  .main {
+    padding: 60px 150px;
+  }
+  
+  .mainDiv {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+  }
+  
+  .mainDiv > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .mainButton {
+    display: none;
+  }
+  
+  .mainP {
+    text-decoration: underline;
+    color: #fff;
+    padding-top: 40px;
+  }
+  
 }
   /* **************** */
