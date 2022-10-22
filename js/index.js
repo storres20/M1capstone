@@ -53,13 +53,16 @@ const speakers = document.getElementById('speakers');
 
 speakers.innerHTML = `
   <h2>Featured Speakers</h2>
-  <div class="line"></div>
+  <p class="line"></p>
+  <div id="speakersDiv"></div>
 `;
+
+const speakersDiv = document.getElementById('speakersDiv');
 
 for (let i = 0; i < 2; i += 1) {
   const card = cards[i];
-  speakers.innerHTML += `
-  <div>
+  speakersDiv.innerHTML += `
+  <div class="speakDiv2">
     <img class="dog" src="${card.image}" alt="${card.alt}">
     <div>
       <h2>${card.name}</h2>
@@ -70,14 +73,14 @@ for (let i = 0; i < 2; i += 1) {
   `;
 }
 
-speakers.innerHTML += `
+speakersDiv.innerHTML += `
   <button id="speakButton" class="hideButton">MORE <i class="bi bi-caret-down-fill"></i></button>
 `;
 
 for (let i = 2; i < cards.length; i += 1) {
   const card = cards[i];
-  speakers.innerHTML += `
-    <div class="speakHide">
+  speakersDiv.innerHTML += `
+    <div class="speakHide speakDiv2">
       <img class="dog" src="${card.image}" alt="${card.alt}">
       <div>
         <h2>${card.name}</h2>
