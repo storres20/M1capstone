@@ -89,11 +89,6 @@ header {
   background-image: url('../img/headerbg3.jpg');
   background-size: cover;
   color: #000;
-  /* color: white;
-  -webkit-text-fill-color: black;
-  -webkit-text-stroke-width: 0.6px;
-  -webkit-text-stroke-color: white; */
-  
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -184,16 +179,19 @@ span {
   padding: 24px 0;
 }
 
-.speakers > div {
+#speakersDiv {
   display: flex;
-  gap: 20px;
-  padding: 12px;
+  flex-direction: column !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
 }
 
-.speakers > div > div {
+.speakDiv2 {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 20px;
 }
 
 .dog {
@@ -379,5 +377,38 @@ span {
     padding-top: 40px;
   }
   
-}
   /* **************** */
+  .speakers {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+  }
+  
+  #speakersDiv {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  
+  .speakDiv2 {
+    display: flex !important;
+    flex-direction: row;
+    width: 30%;
+  }
+  
+  /* **************** */
+  .sponsor {
+    padding: 40px 0;
+  }
+  
+  .sponDiv {
+    display: flex;
+    gap: 50px;
+    padding: 30px 0;
+  }
+  
+}
+  
