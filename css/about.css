@@ -1,0 +1,322 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;500;600;700;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+.line {
+  border-bottom: 2px solid #ec5242;
+  width: 50px;
+  padding: 0 !important;
+}
+
+.alinksLogo {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+/* ************************************************************** */
+
+/* Mobile */
+
+/* Navbar */
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.cross {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 37px;
+}
+
+.mobMenu {
+  background-color: #ec5242;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 8px;
+}
+
+.mobMenu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mobLinks {
+  padding: 8px 0;
+}
+
+.mobLinks a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+.myLogo {
+  height: 50px;
+}
+
+.navLinks {
+  display: none;
+}
+
+/* ***************** */
+
+/* Header */
+header {
+  background-image: url('../img/bg-desktop.png');
+  background-size: cover;
+  color: #272a31;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 40px 10px;
+}
+
+.subHeader {
+  color: #ec5242;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.headerParagraph {
+  background-color: #fff;
+  border: 2px solid #d3d3d3;
+  text-align: center;
+  padding: 20px 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+}
+
+.headerContact {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.headerEmail {
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* ***************** */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  gap: 20px;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.logoTitle {
+  text-align: center;
+}
+
+.logoPara {
+  text-align: center;
+  font-size: 14px;
+}
+
+.logoImg {
+  height: 200px;
+  border: 2px solid #d3d3d3;
+  padding: 20px 40px;
+}
+
+/* ***************** */
+.summit {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.summitTitle {
+  text-align: center;
+}
+
+.summitPara {
+  text-align: center;
+  font-size: 14px;
+}
+
+.summitDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.div2021 {
+  background-image: url(../img/diwali2.jpg);
+  color: #fff;
+  margin: 0 20px;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2020 {
+  background-image: url(../img/headerbg2.jpg);
+
+  /* color: #fff; */
+  margin: 0 20px;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: white;
+}
+
+/* ***************** */
+
+/* footer */
+.footer {
+  background-color: #272a31;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 30px 0;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footImg {
+  height: 100px;
+}
+
+/* ************************************************************** */
+
+/* Desktop view */
+@media (min-width: 768px) {
+  /* Navbar */
+  nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0 143px 0 143px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .mobMenu {
+    display: none;
+  }
+
+  .navLinks {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+
+  .links {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    padding: 10px 12px;
+  }
+
+  .alinks {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+  }
+
+  .borderLink {
+    border: 4px solid #ec5242;
+    padding: 5px;
+  }
+
+  .myLogo:hover,
+  .links:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+
+  /* ********************************** */
+
+  /* Header */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .subHeader {
+    width: 70%;
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+
+  .headerParagraph {
+    width: 60%;
+    padding: 30px 40px;
+  }
+
+  /* ********************************** */
+
+  /* summit */
+  .summit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .summitDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0 60px 0;
+  }
+
+  .div2020,
+  .div2021 {
+    width: 350px;
+  }
+}
+
+/* **************** */
