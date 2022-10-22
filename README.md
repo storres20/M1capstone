@@ -13,6 +13,10 @@
 
 [Live Demo Link](https://storres20.github.io/M1capstone/)
 
+## Video Demo of this project
+
+[Video Demo Link](https://www.loom.com/share/5a0e78b87bb54e4c8c17396f98064741)
+
 
 ## Getting Started
 
