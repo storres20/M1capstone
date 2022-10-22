@@ -89,7 +89,7 @@ nav {
 header {
   background-image: url('../img/headerbg3.jpg');
   background-size: cover;
-  color: #000;
+  color: #272a31;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -124,7 +124,7 @@ header {
 /* Main */
 .main {
   color: #fff;
-  background-color: #000;
+  background-color: #272a31;
   background-image: url(../img/pattern_bg.png);
   display: flex;
   flex-direction: column;
@@ -145,7 +145,7 @@ header {
   align-items: center;
   gap: 12px;
   padding: 20px 12px 20px 12px;
-  background-color: rgb(44, 43, 43);
+  background-color: rgba(255,255,255,.1);
 }
 
 .icon {
@@ -257,7 +257,7 @@ span {
 /* footer */
 .footer {
   background-color: #fff;
-  color: #000;
+  color: #272a31;
   display: flex;
   flex-direction: row;
   justify-content: center;
