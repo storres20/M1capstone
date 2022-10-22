@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;;
+  font-family: 'Lato', sans-serif;
 }
 
 * {
@@ -22,6 +22,7 @@ body {
 }
 
 /* ************************************************************** */
+
 /* Mobile */
 
 /* Navbar */
@@ -235,7 +236,6 @@ span {
   padding: 24px 0;
   background-color: rgb(57, 56, 56);
   color: #fff;
-  padding: 20px 0;
 }
 
 .sponDiv {
@@ -284,7 +284,7 @@ span {
   nav {
     display: flex;
     flex-direction: row;
-    padding: 0 143px 0px 143px;
+    padding: 0 143px 0 143px;
   }
 
   .hamburger {
@@ -309,12 +309,12 @@ span {
     color: #344563;
     padding: 10px 12px;
   }
-  
+
   .alinks {
     text-decoration: none;
     color: #d3d3d3;
   }
-  
+
   .myLogo {
     height: 50px;
   }
@@ -324,15 +324,15 @@ span {
     transform: scale(1.5);
     cursor: pointer;
   }
-  
+
   .hideButton {
     display: none;
   }
-  
+
   .speakHide {
     display: block !important;
   }
-  
+
   /* ************** */
   header {
     display: flex;
@@ -340,50 +340,49 @@ span {
     gap: 20px;
     padding: 100px 600px 100px 100px;
   }
-  
+
   .headerParagraph {
     width: 70%;
     margin-bottom: 20px;
   }
-  
+
   .headerLocation {
     font-size: 24px;
   }
-  
+
   /* ************** */
   .main {
     padding: 60px 150px;
   }
-  
+
   .mainDiv {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    
   }
-  
+
   .mainDiv > div {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  
+
   .mainButton {
     display: none;
   }
-  
+
   .mainP {
     text-decoration: underline;
     color: #fff;
     padding-top: 40px;
   }
-  
+
   /* **************** */
   .speakers {
     display: flex;
     flex-direction: column;
     padding: 60px 0;
   }
-  
+
   #speakersDiv {
     display: flex;
     flex-direction: row !important;
@@ -392,23 +391,21 @@ span {
     gap: 50px;
     margin-top: 40px;
   }
-  
+
   .speakDiv2 {
     display: flex !important;
     flex-direction: row;
     width: 30%;
   }
-  
+
   /* **************** */
   .sponsor {
     padding: 40px 0;
   }
-  
+
   .sponDiv {
     display: flex;
     gap: 50px;
     padding: 30px 0;
   }
-  
 }
-  

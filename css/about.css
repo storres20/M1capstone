@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;;
+  font-family: 'Lato', sans-serif;
 }
 
 * {
@@ -22,6 +22,7 @@ body {
 }
 
 /* ************************************************************** */
+
 /* Mobile */
 
 /* Navbar */
@@ -93,8 +94,6 @@ header {
   background-image: url('../img/headerbg3.jpg');
   background-size: cover;
   color: #000;
-  
-  
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -189,6 +188,7 @@ header {
 
 .div2020 {
   background-image: url(../img/headerbg2.jpg);
+
   /* color: #fff; */
   margin: 0 20px;
   text-align: center;
@@ -214,7 +214,6 @@ header {
   padding: 24px 0;
   background-color: rgb(57, 56, 56);
   color: #fff;
-  padding: 30px 0;
 }
 
 .sponDiv {
@@ -263,7 +262,7 @@ header {
   nav {
     display: flex;
     flex-direction: row;
-    padding: 0 143px 0px 143px;
+    padding: 0 143px 0 143px;
   }
 
   .hamburger {
@@ -288,7 +287,7 @@ header {
     color: #344563;
     padding: 10px 12px;
   }
-  
+
   .alinks {
     text-decoration: none;
     color: #d3d3d3;
@@ -299,6 +298,6 @@ header {
     transform: scale(1.5);
     cursor: pointer;
   }
-  
 }
-  /* **************** */
+
+/* **************** */
