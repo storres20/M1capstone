@@ -76,11 +76,7 @@ nav {
 }
 
 .myLogo {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #ec5242;
+  height: 50px;
 }
 
 .navLinks {
@@ -98,12 +94,6 @@ header {
   flex-direction: column;
   gap: 12px;
   padding: 40px 10px;
-}
-
-.headerTitle {
-  color: #ec5242;
-  font-size: 24px;
-  text-align: center;
 }
 
 .subHeader {
@@ -174,6 +164,12 @@ header {
   font-size: 14px;
 }
 
+.summitDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .div2021 {
   background-image: url(../img/diwali2.jpg);
   color: #fff;
@@ -205,37 +201,10 @@ header {
 
 /* ***************** */
 
-/* Sponsor */
-.sponsor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  padding: 24px 0;
-  background-color: rgb(57, 56, 56);
-  color: #fff;
-}
-
-.sponDiv {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 25px;
-}
-
-.sponPic {
-  height: 25px;
-  width: auto;
-}
-
-/* ***************** */
-
 /* footer */
 .footer {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -298,6 +267,46 @@ header {
     transform: scale(1.5);
     cursor: pointer;
   }
+  
+  /* ********************************** */
+  
+  /* Header */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .subHeader {
+    width: 50%;
+  }
+  
+  .headerParagraph {
+    width: 60%;
+    padding: 30px 40px;
+  }
+  
+  /* ********************************** */
+  
+  /* summit */
+  .summit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .summitDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0 60px 0;
+  }
+  
+  .div2020, .div2021 {
+    width: 350px;
+  }
+  
 }
 
 /* **************** */
